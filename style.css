@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(90deg, #BABDC6 60%, #A0B7F9);
+	font-family: 'Silkscreen', cursive;
+}
+
+h1 {
+	font-family: 'Black Ops One', cursive;
+	font-size: 5rem;
+	color: #1B224D;
+	text-align: center;
+	margin-top: 4rem;
+}
+
+button {
+	font-size: 2rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	background: linear-gradient(90deg, #668385, #345356);
+	border-radius: .6rem;
+}
+
+button:hover {
+	background: linear-gradient(180deg, #668385, #345356);
+}
+button:active {
+	background: linear-gradient(180deg, #234245, #557274);
+}
+
+/*/////////////////////////////////////  container ///////////////////////////////////////////*/
+
+.container {
+	background: linear-gradient(180deg, #1F4CD2, #20909A);
+	border: 2px outset #0A113C;
+	position: absolute;
+	left: 22rem;
+	height: 25rem;
+	width: 20rem;
+	justify-content: center;
+	border-radius: 3%;
+	box-shadow: 1px 3px 7px 4px #1B224D;
+}
+
+.para {
+	background: linear-gradient(90deg, #BABDC6, #A0B7F9);
+	color: #0A113C;
+	width: 17.8rem;
+	height: 1.4rem;
+	margin: 3rem 0 1.8rem .5rem;
+	padding: .5rem; 
+	border: 2px outset #0A113C;
+	border-radius: 2rem;
+}
+
+/*/////////////////////////////////////  numbers ///////////////////////////////////////////*/
+
+.numbers {
+	border: 1px inset #0A113C;
+	border-radius: 1rem;
+	background: linear-gradient(90deg, #47595B, #67787A); 
+	width: 11rem;
+	height: 16rem;
+	margin: 0 0 3rem 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.fisrt-numbers, .second-numbers, .third-number, .last-number {
+	display: flex;
+	justify-content: space-around;
+}
+
+/*/////////////////////////////////////  operators ///////////////////////////////////////////*/
+
+.operators {
+	border: 1px inset #0A113C;
+	border-radius: 1rem;
+	background: linear-gradient(90deg, #47595B, #67787A); 
+	width: 6rem;
+	height: 16rem;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	left: 13rem;
+	top: 7.3rem;
+}
+
+.first-operators, .second-operators, .third-operators, .last-operators {
+	display: flex;
+	justify-content: space-around;
+}
+
+/*/////////////////////////////////////  reset-container //////////////////////////////////////*/
+
+.reset-container {
+	position: absolute;
+	left: 13rem;
+	top: .3rem;
+}
